@@ -34,6 +34,8 @@
                                                          UITextViewDelegate>
 
 
+@property (weak, nonatomic, readonly) NSLayoutConstraint *toolbarBottomLayoutGuide;
+
 @property (weak, nonatomic, readonly) NSLayoutConstraint *collectionViewTopLayoutConstraint;
 
 /**
